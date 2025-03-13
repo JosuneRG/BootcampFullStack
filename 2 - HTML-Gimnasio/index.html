@@ -1,32 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gimnasio</title>
-</head>
-<body>
-    <header>
-
-    </header>
-    <main>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Gimnasio</title>
+    </head>
+    <body>
         <table>
-            <tr>
-              <th>Invoice #123456789</th>
-              <th>C14 january 2025</th>
+            <tr class ="colorGrey">
+                <th colspan="3">Invoice #123456789</th>
+                <th>14 january 2025</th>
             </tr>
             <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
+                <td colspan="2">
+                    <b>Pay to:</b><br>
+                    Acme Billing Co.<br>
+                    123 Main St.<br>
+                    Cityville, NA 12345
+                </td>
+                <td colspan="2">
+                    <b>Customer:</b><br>
+                    John Smith <br>
+                    321 Willow Way <br>
+                    Southeast Northwetershire, MA 54321
+                </td>
+               
+            </tr>
+            <tr class ="colorGrey">
+                <td>Name / Description</td>
+                <td>Qty.</td>
+                <td>@</td>
+                <td>Cost</td>
             </tr>
             <tr>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
+                <td>Papaerclips</td>
+                <td>1000</td>
+                <td>0.01</td>
+                <td>10.00</td>
             </tr>
-          </table>
-    </main>
-    <footer></footer>
-</body>
+            <tr>
+                <td>Staples (box)</td>
+                <td>100</td>
+                <td>1.00</td>
+                <td>100.000</td>
+            </tr>
+            <tr>
+                <td colspan="3", class ="colorGrey">Subtotal</td>
+                <td>110.00</td>
+            </tr>
+            <tr>
+                <td colspan="2", class ="colorGrey">Tax</td>
+                <td>8%</td>
+                <td>8.80</td>
+            </tr>
+            <tr>
+                <td colspan="3", class ="colorGrey">Grand Total</td>
+                <td>$ 118.80</td>
+            </tr>
+        </table>
+
+    
+    </body>
 </html>
