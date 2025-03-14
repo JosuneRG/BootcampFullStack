@@ -1,3 +1,4 @@
+/* CSS para la pagina index*/
 table, th, td, tr{
     border:1px solid black;
     border-collapse: collapse;
@@ -15,33 +16,83 @@ th{
     font-weight: bold;
 }
 
-
-nav {
-    background-color: #333;
-    padding: 10px;
-    width: 200px;
+h1{
     text-align: center;
 }
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-    display: inline;
-    margin-right: 15px;
-}
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 8px 12px;
-    border-radius: 5px;
-}
-a:hover {
-    background-color: #555;
+/* CSS para el menu*/
+.menuCSS3 {
+    background-color: #f9a825; /* Naranja más suave */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px auto;
 }
 
+.menuCSS3 ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menuCSS3 ul li {
+    position: relative;
+}
+
+.menuCSS3 a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #ffcc80; /* Naranja claro */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menuCSS3 a:hover {
+    background-color: #e67e22; /* Naranja más oscuro */
+    color: white;
+}
+
+/* Submenú */
+.menuCSS3 ul li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #ffb74d;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.menuCSS3 ul li ul li {
+    display: block;
+}
+
+.menuCSS3 ul li ul li a {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.menuCSS3 ul li:hover > ul {
+    display: block;
+}
+
+table{
+    margin: auto;
+}
+
+img, audio,video{
+    margin:auto;
+    display: block;
+}
+
+.Contenido h2{
+    text-align: center;
+}
 footer{
     text-align: center;
 }
