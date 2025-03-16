@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #004080;
+    text-transform: uppercase;
+}
+
+/* Estilos de los formularios */
+form {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #004080;
+}
+/* Inputs, textareas y selects */
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Alineación de radio buttons y checkboxes */
+.radio-group, 
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;  /* Para evitar desbordes en pantallas pequeñas */
+    gap: 15px;  /* Espaciado entre opciones */
+    align-items: center;
+}
+
+.radio-group label, 
+.checkbox-group label {
+    display: flex;
+    align-items: center; /* Centra verticalmente el input y el texto */
+    gap: 5px; /* Espaciado entre input y texto */
+    cursor: pointer;
+}
+
+/* Ajuste del tamaño de radio y checkbox */
+input[type="radio"], 
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #004080; /* Color cuando está seleccionado */
+}
+
+/* Botón de enviar */
+input[type="submit"] {
+    background: #004080;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #002b55;
+}
+
+/* Lista de marcas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    background: #004080;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Pie de página */
+footer {
+    background: #004080;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
