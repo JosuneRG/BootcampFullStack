@@ -80,9 +80,23 @@
                 <input type="color" id="favcolor" name="favcolor" value="#ff0000">
                 <input type="submit" value="Submit">
             </div>
+            <script>
+                addEventListener('load',inicio,false);
+              
+                function inicio()
+                {
+                  document.getElementById('price').addEventListener('change',cambioprice,false);
+                }
+              
+                function cambioprice()
+                {    
+                  document.getElementById('precio').innerHTML=document.getElementById('price').value;
+                }
+            </script>
             <div>
-                <label for="vol">Rango de precio:</label>
-                <input type="range" id="vol" name="vol" min="0" max="50">
+                <label for="price">Rango de precio:</label>
+                <input type="range" id="price" name="price" min="0" max="50">
+                <span id="precio">25</span>
             </div>
             
             <div>                
