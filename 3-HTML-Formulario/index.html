@@ -29,7 +29,7 @@
                 <input type="number" id="Edad" name="Edad" min="1" max="100" step="1">
             </div>
 
-            <div class="opciones-paseo">
+            <div class="opciones-sexo">
                 
                 <label>Sexo:</label>
                 <div class="radio-group">
@@ -77,15 +77,15 @@
             </div>
             <div>
                 <label for="favcolor">Color de la bicicleta:</label>
-                <input type="color" id="favcolor" name="favcolor">
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                <input type="submit" value="Submit">
             </div>
             <div>
                 <label for="vol">Rango de precio:</label>
                 <input type="range" id="vol" name="vol" min="0" max="50">
             </div>
             
-            <div class="opciones-paseo">
-                
+            <div>                
                 <label>Paseo:</label>
                 <div class="radio-group">
                     <input type="radio" id="Señorial" name="paseo" value="Señorial">
@@ -103,36 +103,62 @@
 
             <div>
                 <label for="Montaña">Montaña:</label><br>
-                <input type="radio" id="Gamusinos" name="Gamusinos" value="Gamusinos">
-                <label for="Gamusinos">Gamusinos</label><br>
-                <input type="radio" id="Hueleflores" name="Hueleflores" value="Hueleflores">
-                <label for="Hueleflores">Hueleflores premium</label><br>
-                <input type="radio" id="Fango" name="Fango" value="Fango">
-                <label for="Fango">Fango lover</label>
+                <div class="radio-group">                    
+                    <input type="radio" id="Gamusinos" name="montaña" value="Gamusinos">
+                    <label for="Gamusinos">Gamusinos</label><br>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="Hueleflores" name="montaña" value="Hueleflores">
+                    <label for="Hueleflores">Hueleflores premium</label><br>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="Fango" name="montaña" value="Fango">
+                    <label for="Fango">Fango lover</label>
+                </div>
             </div>
+
             <div>
                 <label for="Carreras">Carreras:</label><br>
-                <input type="radio" id="Metroymedio" name="Metroymedio" value="Metroymedio">
-                <label for="Metroymedio">Metroymedio</label><br>
-                <input type="radio" id="3Tarde" name="3Tarde" value="3Tarde">
-                <label for="3Tarde">3 de la tarde. Fluorescente edition</label><br>
-                <input type="radio" id="Grupitors" name="Grupitors" value="Grupitors">
-                <label for="Grupitors">Grupitors</label>
+                <div class="radio-group">                  
+                    <input type="radio" id="Metroymedio" name="carreras" value="Metroymedio">
+                    <label for="Metroymedio">Metroymedio</label><br>
+                </div>
+                <div class="radio-group">               
+                    <input type="radio" id="3Tarde" name="carreras" value="3Tarde">
+                    <label for="3Tarde">3 de la tarde. Fluorescente edition</label><br>
+                </div>
+                <div class="radio-group">                   
+                    <input type="radio" id="Grupitors" name="carreras" value="Grupitors">
+                    <label for="Grupitors">Grupitors</label>
+                </div>                
+                
             </div>
             <div>
                 <label for="Accesorios">Accesorios:</label><br>
-                <input type="radio" id="Ruedines" name="Ruedines" value="Ruedines">
-                <label for="Ruedines">Ruedines</label><br>
-                <input type="radio" id="Pegatinas" name="Pegatinas" value="Pegatinas">
-                <label for="Pegatinas">Pegatinas</label><br>
-                <input type="radio" id="Cestita" name="Cestita" value="Cestita">
-                <label for="Cestita">Cestita</label>
-                <input type="radio" id="Bomba" name="Bomba" value="Bomba">
-                <label for="Bomba">Bomba de aire</label><br>
-                <input type="radio" id="Timbre" name="Timbre" value="Timbre">
-                <label for="Timbre">Timbre</label><br>
-                <input type="radio" id="Foco" name="Foco" value="Foco">
-                <label for="Foco">Foco</label>
+                <div class="radio-group">
+                    <input type="radio" id="Ruedines" name="Accesorios" value="Ruedines">
+                    <label for="Ruedines">Ruedines</label><br>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="Pegatinas" name="Accesorios" value="Pegatinas">
+                    <label for="Pegatinas">Pegatinas</label><br>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="Cestita" name="Accesorios" value="Cestita">
+                    <label for="Cestita">Cestita</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="Bomba" name="Accesorios" value="Bomba">
+                    <label for="Bomba">Bomba de aire</label><br>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="Timbre" name="Accesorios" value="Timbre">
+                    <label for="Timbre">Timbre</label><br>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="Foco" name="Accesorios" value="Foco">
+                    <label for="Foco">Foco</label>
+                </div>
             </div>
             <div>
                 <h3>¿Qué marca era?:</h3>
