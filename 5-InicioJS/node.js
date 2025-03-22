@@ -69,22 +69,22 @@ switch (expr) {
   //Prueba while
   let a = 1;
 
-  while(a < 10)
-  {
+while(a < 10)
+{
     console.log("Vuelta bucle while:" , a);
     a ++;
-  }
+}
 
   //Prueba OR y AND
-  const number = 50;
-  const age3 = 20;
+const number = 50;
+const age3 = 20;
 
-  if(number > 10 || number <100)
-  {
+if(number > 10 || number <100)
+{
     console.log('Es mayor que 10')
-  }
+}
 
-  if(number > 10 && age3 > 10)
-    {
-      console.log('Es mayor que 10 los dos.')
-    }
+if(number > 10 && age3 > 10)
+{
+    console.log('Es mayor que 10 los dos.')
+}
