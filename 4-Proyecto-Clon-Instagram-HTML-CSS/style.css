@@ -1,0 +1,175 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Fondo general */
+
+body {
+    background-color: #FAFAFA;
+    display: flex;
+}
+
+/* Contenido principal */
+main{
+    display: flex;
+    height: 100vh;
+}
+/* 1- ----------------------------------------------------- Menú lateral ------------------------------------------------*/
+aside {
+    background-color: #FFFFFF;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-left: 20%;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    padding: 8px 10px; 
+    width: 100%; 
+}
+
+aside nav a img {
+    width: 20%; 
+    height: auto;
+}
+
+.insta
+{
+    margin-bottom: 10%;
+}
+/*------------------------------------------------------- FIN MENU ---------------------------------------------------*/
+/* Sección de perfil */
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-left:5%;
+    margin-top: -10%;
+    width: 10%;
+    height: 40%;
+}
+
+/* Imagen de perfil */
+.imgIzq img {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin-right: 1.5vw;
+    border: 0.2vw solid #DBDBDB;
+}
+
+/* -------------------------------- Información del perfil -------------------------------------------------*/
+.profile-info {
+    list-style: none;
+    padding-left: 5%;
+}
+
+.profile-info li {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre elementos */
+}
+
+.username{
+    font-size: 2vw;
+    font-style: 100%;
+}
+
+.imgFollow {
+    width: 35%; /* Ajusta el tamaño del botón */
+    height: auto;
+    cursor: pointer;
+    padding-left: 8%;
+}
+
+.more-options {
+    font-size: 160%;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 3%;
+    padding-left: 8%;
+}
+
+.textLine1 {
+    list-style: none; 
+    display: flex;
+    font-size: 13px;
+}
+
+.textLine2 {
+    list-style: none; 
+    display: flex;
+    padding-left: 8%;
+    font-size: 13px;
+}
+
+.textLine3 {
+    list-style: none;
+    display: flex; 
+    padding-left: 8%;
+    font-size: 13px;
+}
+
+.start-value {
+    font-weight: bold;
+    padding-right: 8%;
+}
+
+.profile-info-li
+{
+    margin-top: 5%;
+}
+
+.profilePart2{
+    margin-top: 5%;
+}
+
+.textTerry{
+  margin-top: 8%;
+  font-size: 15px;
+}
+
+
+/* ------------------------------------- Sección de publicaciones ------------------------------------------*/
+.postsGrid {
+    display: flex;
+    flex-direction: row; /* Elementos en fila */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: flex-start; /* Alinea desde la parte superior */
+    gap: 20px; /* Espacio entre cada elemento */
+    list-style: none;
+    padding: 0;
+}
+
+/* Cada imagen y su texto */
+.postItem {
+    display: flex;
+    flex-direction: column; /* Imagen arriba, texto abajo */
+    align-items: center; /* Centra cada imagen y su texto */
+    text-align: center;
+}
+
+/* Estilos de la imagen */
+.postsImg {
+    width: 60%; /* Ajusta según necesidad */
+    height: auto;
+    display: block;
+}
+
+/* Espaciado del texto */
+.postsText {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
