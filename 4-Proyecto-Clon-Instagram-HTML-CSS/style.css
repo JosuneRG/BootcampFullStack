@@ -55,7 +55,7 @@ aside nav a img {
     display: flex;
     align-items: center;
     margin-left:5%;
-    margin-top: -10%;
+    margin-top: -5%;
     width: 10%;
     height: 40%;
 }
@@ -142,10 +142,17 @@ aside nav a img {
 
 
 /* ------------------------------------- Sección de publicaciones ------------------------------------------*/
+.posts{
+    width: 60%;
+    height: 30%;
+    margin-top: 20%;
+}
+
+
 .postsGrid {
     display: flex;
     flex-direction: row; /* Elementos en fila */
-    justify-content: center; /* Centra horizontalmente */
+    justify-content: space-between; /* Centra horizontalmente */
     align-items: flex-start; /* Alinea desde la parte superior */
     gap: 20px; /* Espacio entre cada elemento */
     list-style: none;
@@ -162,7 +169,6 @@ aside nav a img {
 
 /* Estilos de la imagen */
 .postsImg {
-    width: 60%; /* Ajusta según necesidad */
     height: auto;
     display: block;
 }
@@ -170,6 +176,6 @@ aside nav a img {
 /* Espaciado del texto */
 .postsText {
     margin-top: 8px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
 }
